@@ -1,3 +1,5 @@
+//* Code borrowed from 17.1.10, GeoJson earthquake exercise.
+
 // Creating our initial map object
 // We set the longitude, latitude, and the starting zoom level
 // This gets inserted into the div with an id of 'map'
