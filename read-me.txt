@@ -1,0 +1,12 @@
+Leaflet Challenge homework.
+
+1, I used the easiest activity, (17.1) to link the index.html to 
+a logic.js file that called a map.
+
+2, I used 17.10, which is the earthquake exercise to call an earthquake map
+
+3, I used the query url that calls the most updated earthquakes.  It worked,
+but it is very slow.  therefore, I will build the code based on the previous
+static query so that my computer is not overly slowed down.
+
+4, I looked at exercise 17.1.7 which used circles, changed their colors, and sizes.

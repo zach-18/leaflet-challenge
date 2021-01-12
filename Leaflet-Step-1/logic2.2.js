@@ -1,3 +1,6 @@
+
+
+//* 2.2 has the query url to pull the most updated data.  however, it slows down the computer.  I will use 2.1 w/ the static address to build the circles, colors, sizes, scale, etc.
 // Store our API endpoint inside queryUrl
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
 
@@ -7,7 +10,7 @@ d3.json(queryUrl, function(data) {
   createFeatures(data.features);
 });
 
-// console.log(feature);
+// console.log(feature.properties.place);
 
 function createFeatures(earthquakeData) {
 
