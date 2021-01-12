@@ -78,29 +78,35 @@ function createMap(earthquakes) {
 
 // From 17.1.7, creation of colored circles: (77 to 104)
 // Loop through the cities array and create one marker for each city object
-for (var i = 0; i < countries.length; i++) {
+for (var i = 0; i < earthquakes.length; i++) {
 
-  // Conditionals for countries points
-  var color = "";
-  if (countries[i].points > 200) {
-    color = "yellow";
-  }
-  else if (countries[i].points > 100) {
-    color = "blue";
-  }
-  else if (countries[i].points > 90) {
-    color = "green";
-  }
-  else {
-    color = "red";
-  }
+  // // Conditionals for countries points
+  // var color = "";
+  // if (earthquakes[i].points > 90) {
+  //   color = "red";
+  // }
+  // else if (countries[i].points > 70) {
+  //   color = "orange";
+  // }
+  // else if (countries[i].points > 50) {
+  //   color = "lightorange";
+  // }
+  // else if (countries[i].points > 30) {
+  //   color = "yellow";
+  // }
+  // else if (countries[i].points > 10) {
+  //   color = "lightgreen";
+  // }
+  // else {
+  //   color = "green";
+  // }
 
   // Add circles to map
-  L.circle(countries[i].location, {
+  L.circle(earthquakes, {
     fillOpacity: 0.75,
     color: "white",
     fillColor: color,
     // Adjust radius
-    radius: countries[i].points * 1500
-  }).bindPopup("<h1>" + countries[i].name + "</h1> <hr> <h3>Points: " + countries[i].points + "</h3>").addTo(myMap);
+    radius: features.geometry.coordinates[2] * 15000
+  }).bindPopup.addTo(myMap);
 }

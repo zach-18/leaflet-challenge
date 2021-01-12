@@ -10,3 +10,8 @@ but it is very slow.  therefore, I will build the code based on the previous
 static query so that my computer is not overly slowed down.
 
 4, I looked at exercise 17.1.7 which used circles, changed their colors, and sizes.
+
+5, I tried adding circles to the original earthquake file with the updated data
+source, but it did not work &logic.2.1copy
+
+6, I tried using 17.1.7, substituing data source to have circles on earthquake spots.
