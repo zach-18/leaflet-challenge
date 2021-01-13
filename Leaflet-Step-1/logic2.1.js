@@ -2,13 +2,16 @@
 var queryUrl = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2021-01-09&endtime=" +
   "2021-01-10&maxlongitude=-69.52148437&minlongitude=-123.83789062&maxlatitude=48.74894534&minlatitude=25.16517337";
 
+  
+
 // Perform a GET request to the query URL
-d3.json(queryUrl, function(data) {
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson", function(data) {
   // Once we get a response, send the data.features object to the createFeatures function
   createFeatures(data.features);
+  console.log(data);
 });
 
-console.log(data.features);
+// console.log(data);
 
 function createFeatures(earthquakeData) {
 
