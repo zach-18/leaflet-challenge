@@ -15,3 +15,13 @@ static query so that my computer is not overly slowed down.
 source, but it did not work &logic.2.1copy
 
 6, I tried using 17.1.7, substituing data source to have circles on earthquake spots.
+(logic.3.1
+
+7.  I created Logic.10 to start fresh.  
+
+8.  My TA helped me clean up my call to the URL on Logic 2.1, and the console finally works.
+
+9.  Next is to bring it together.
+
+10.  I created Logic.11 after Tuesday's office hours, and I took notes on a different approach to call the URL and add circles.
+
