@@ -1,5 +1,27 @@
 Leaflet Challenge homework.
 
+Summary:  The homework assignment was not fully completed due to the following reasons:
+- I had an extremely busy week at work.  (Post Holiday, several large project kick-offs)
+- We are working on Project 2 at the same time, where I needed to build the SQL database, and clean some data.
+- My Tutor cancelled my session 3 hours before our call yesterday evening because he started a new job.
+
+Completed Work:
+Index.html is linked to logic2.1.js, which creates a map, calls earthquakes, and has a functioning console.log
+that calls data.
+
+Index copy.html is linked to logic.10.js which created a map, created a circle, but I did not have time to have 
+a working call of earthquake data.
+
+Once again, because of a busy work and class week, and having my Tutor cancel, I did not get as far
+as I wanted to get this week.
+
+I did put in a lot of time as you can see from the quantity of git commits, it was just a challenging assignment
+for me.
+
+Thank you,
+Phil Zach
+
+
 1, I used the easiest activity, (17.1) to link the index.html to 
 a logic.js file that called a map.
 
@@ -19,9 +41,10 @@ source, but it did not work &logic.2.1copy
 
 7.  I created Logic.10 to start fresh.  
 
-8.  My TA helped me clean up my call to the URL on Logic 2.1, and the console finally works.
+8.  My TA helped me clean up my call to the URL on Logic 2.1, and the console 
+finally works.
 
 9.  Next is to bring it together.
 
-10.  I created Logic.11 after Tuesday's office hours, and I took notes on a different approach to call the URL and add circles.
-
+10.  I created Logic.11 after Tuesday's office hours, and I took notes on a different 
+approach to call the URL.
